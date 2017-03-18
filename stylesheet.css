@@ -1,0 +1,132 @@
+* {
+	margin: 0px auto;
+	padding: 0px;
+	font-family: Helvetica;
+} /*centers elements and gets rid of all padding so I can manually set them*/
+
+
+/*navigation and footer*/
+
+#nav {
+    width: 100%;
+    background-color: #004d1a;
+	position: fixed;
+	top: 0px;
+	font-size: 30px;
+	padding: 10px 0px;
+	z-index: 1;
+}
+
+#nav a{
+	text-decoration: none;
+	color: #ccffdd;
+}
+
+span {
+	color:#33ff78;
+}
+
+#nav li {
+    display: inline;
+    padding: 0px 40px; 
+}
+
+#nav-left {
+    float: left;
+}
+
+#nav-left img {
+	height: 40px;
+	padding-left: 10px;
+}
+
+#nav-right {
+    float: right;
+}
+
+#footer {
+	background-color: #004d1a;
+	text-align: center;	
+	width: 960px;
+	padding: 10px 0px;
+	border: 1px solid black;
+	color: #ccffdd;
+}
+
+/*css for index page*/
+
+#index-container img {
+	width: 100%;
+	margin-top: 60px;
+}
+
+#page-title {
+	font-size: 100px;
+	position: absolute;
+	top: 300px;
+	padding-left: 70px;
+	color: #003311;
+	text-shadow: 1px 1px #ccffdd;
+}
+
+#slogan {
+	font-size: 50px;
+	position: absolute;
+	top: 400px;
+	padding-left: 70px;
+	color: #003311;
+	text-shadow: 1px 1px #ccffdd;
+}
+
+
+/*css container, background, and content divs*/
+
+#background {
+	position: fixed; 
+	z-index: -1;
+	left: 0;
+	right: 0;
+}
+
+#container {
+	margin-top: 60px;
+	width: 960px;
+	background-color: #ccffdd;
+	border: 1px solid black;
+	color: #003311;
+}
+
+h1, h3 {
+	padding: 10px;
+}
+
+
+.content {
+	text-align: justify;
+	height: 250px;
+	padding: 40px;
+	
+}
+
+.content img {
+	float: left;
+ 	width: 300px;
+	margin-right: 23px;
+}
+
+#resources-content {
+	padding: 20px;
+}
+
+#resources-content a {
+	color: #003311;
+	text-decoration: none;
+}
+
+#resources-content hr {
+	margin: 20px 0px;
+}
+
+
+
+
